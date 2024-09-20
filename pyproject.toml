@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "chatbot"
+version = "1.0"
+description = "A Toy Chatbot Built with Langchain for Educational Purpose"
+authors = ["Lloyd Sun"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.1.1"
+langchain = "^0.3.0"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.2.0"
+langchain-groq = "^0.2.0"
+langchain-community = "^0.3.0"
+langchain-ollama = "^0.2.0"
+streamlit = "^1.38.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple"
+priority = "primary" 
