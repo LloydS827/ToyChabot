@@ -4,6 +4,8 @@ A Toy Chatbot Built with Langchain for Educational Purpose.
 
 Related Course: [LloydS827/WhysAI-LLMFS-4E (github.com)](https://github.com/LloydS827/WhysAI-LLMFS-4E), 4E02-2
 
+try at(streamlit cloud): https://lloyds827-toychabot-webui-st-072gs6.streamlit.app/
+
 ## Important Files
 
 - pyproject.toml: poetry file. SDKs can be installed by (in command line) `poetry install --no-root`
