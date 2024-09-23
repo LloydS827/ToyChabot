@@ -8,11 +8,14 @@ try at(streamlit cloud): https://lloyds827-toychabot-webui-st-072gs6.streamlit.a
 
 ## Important Files
 
-- pyproject.toml: poetry file. SDKs can be installed by (in command line) `poetry install --no-root`
+- 01_chatbot.ipynb: 构建Chatbot的Jupyter Notebook
+- 02_webui_st.py: 使用Streamlit构建的Web UI
+- 03_langchainic_chatbot.ipynb: 使用更Langchain的方式构建Chatbot
+- 04_lc_st.py: Langchain+Streamlit官方webui示例，[Langchain source code for this](https://github.com/langchain-ai/streamlit-agent/blob/main/streamlit_agent/basic_memory.py)
 
-- chatbot.ipynb: run in Jupyter Notebook.
-- webui_st.py: chatbot webui. Try at (streamlit cloud):  
-- lc_st.py: langchain's official guide on streamlit with a few modifications. [Langchain source code for this](https://github.com/langchain-ai/streamlit-agent/blob/main/streamlit_agent/basic_memory.py)
 
-- .env.example: ".env" example.
+
+
+
+
 
